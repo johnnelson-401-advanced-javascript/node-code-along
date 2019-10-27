@@ -1,4 +1,4 @@
-var http = require("http");
+var foo = require("http");
 var url = require("url");
 
 
@@ -10,7 +10,7 @@ function start() {
     response.write("Hello World");
     response.end();
   }
-  http.createServer(onRequest).listen(8888)
+  foo.createServer(onRequest).listen(8888)
 
   console.log('server is running');
 
