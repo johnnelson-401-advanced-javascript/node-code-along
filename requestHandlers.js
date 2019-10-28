@@ -1,4 +1,4 @@
-var exec = requires("child_process").exec;
+var exec = require("child_process").exec;
 
 
 function start() {
